@@ -25,7 +25,6 @@ mail($to,$email_subject,$email_body,$headers);
 
 $mail = new PHPMailer;
  
-$mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';                       // Specify main and backup server
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'christofer.jadelius@gmail.com';                   // SMTP username
