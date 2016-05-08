@@ -51,8 +51,8 @@ $mail->AltBody = $message ;
 //$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
  
 if(!$mail->send()) {
-   //echo 'Message could not be sent.';
-   //echo 'Mailer Error: ' . $mail->ErrorInfo;
+   echo 'Message could not be sent.';
+   echo 'Mailer Error: ' . $mail->ErrorInfo;
    //exit;
    return false;
 }
