@@ -36,7 +36,7 @@ p {
 }
 
 .about-image {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   max-height: 200px;
 }
 
@@ -130,7 +130,7 @@ Portfolio
 }
 
 .gallery {
-  padding: 0px; 
+  padding: 10px; 
 }
 
 /* --------------------
@@ -370,6 +370,7 @@ Gallery - Hover-effect
   position: relative;
   text-align: center;
   cursor: default;
+  border-radius: 10px;
 }
 
 .hovereffect .overlay {
@@ -382,6 +383,7 @@ Gallery - Hover-effect
   background-color: rgba(75,75,75,0.7);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  border-radius: 10px;
 }
 
 .hovereffect:hover img {
@@ -395,6 +397,7 @@ Gallery - Hover-effect
 .hovereffect img {
   display: block;
   position: relative;
+  border-radius: 10px;
 }
 
 .hovereffect h2 {
@@ -404,7 +407,7 @@ Gallery - Hover-effect
   position: relative;
   font-size: 17px;
   padding: 10px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   -webkit-transform: translateY(45px);
   -ms-transform: translateY(45px);
   transform: translateY(45px);
@@ -435,7 +438,7 @@ Gallery - Hover-effect
   font-weight: normal;
   margin: 20px 0 0 0;
   padding: 7px 14px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   font-size: 1.2em;
 }
 
