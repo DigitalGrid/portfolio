@@ -216,6 +216,8 @@ form .row:first-child .floating-label-form-group {
   border: 0 none;
   letter-spacing: 1px;
   background: #01D475;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .btn-success:hover {
@@ -225,6 +227,31 @@ form .row:first-child .floating-label-form-group {
 .btn-success:focus, .btn-success:active:focus, .btn-success.active:focus {
   outline: 0 none;
   background: #018449;
+}
+
+.btn-success.btn-custom {
+  margin-top: 35px;
+  padding: 20px 24px;
+  border: 0 none;
+  letter-spacing: 1px;
+  border: 2px solid #01D475;
+  background: transparent;
+  color: #01D475;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-success.btn-custom:hover {
+  border: 2px solid #019854;
+  color: #019854;
+  box-shadow: 0 0 10px #019854;
+}
+ 
+.btn-success.btn-custom:focus, .btn-success.btn-custom:active:focus, .btn-success.btn-custom.active:focus {
+  outline: 0 none;
+  border: 2px solid #01D475;
+  background: transparent;
+  color: #01D475;
 }
  
 
@@ -421,5 +448,5 @@ Gallery - Hover-effect
 }
 
 .hovereffect a.info:hover {
-  box-shadow: 0 0 5px #01D475;
+  box-shadow: 0 0 20px #01D475;
 }
